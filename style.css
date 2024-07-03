@@ -1,5 +1,7 @@
 body {
   background-image: url(photo-1719516853456-2ce936d1bafd.avif);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 nav {
   display: flex;
@@ -29,4 +31,35 @@ nav {
 }
 .nav-content ul li {
   list-style: none;
+}
+.hero_baner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.hero-cont {
+  color: white;
+  
+}
+
+.hero_cont p {
+  font-size: 20px;
+  font-weight: 200;
+}
+.hero_img img{
+    height: 300px;
+    border-radius: 2px;
+    padding-top: 40px;
+}
+.hero-cont h1{
+    font-size: 50px;
+
+}
+.hero-cont button{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
 }
